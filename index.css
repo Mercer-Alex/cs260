@@ -1,1 +1,51 @@
-index
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+h1 {
+    padding: 25px;
+    font-weight: bold;
+}
+p {
+    padding: 20px 10px 20px 10px; 
+    margin-bottom: 20px;
+}
+.me {
+    text-align: left;
+    border: 2px solid rgb(58, 115, 119);
+    border-radius: 5px;
+}
+#important {
+    font-style: oblique;
+}
+.big {
+    font-weight: bold;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(58, 115, 119);
+  }
+  
+  .nav-item {
+    float: left;
+  }
+  
+  .nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-item a:hover {
+    background-color: rgb(161, 161, 161);
+  }
